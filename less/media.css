@@ -1,0 +1,90 @@
+/*==========  Mobile First Method  ==========*/
+@media (max-width: 1300px) {
+	.block-item {
+		width: 170px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.block-item {
+		width: 185px;
+	}
+}
+
+@media (max-width: 992px) {
+	.block-item {
+		width: 145px;
+	}
+
+	.footer-bottom {
+	    justify-content: center;
+	    flex-wrap: wrap;
+	    padding-top: 30px;
+
+	    .title {
+	    	margin-bottom: 30px;
+	    }
+	}
+
+	.sponsors-menu {
+		flex-wrap: wrap;
+	    justify-content: center;
+	    width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	
+}
+
+@media (max-width: 480px) {
+	/*.header-main {
+		padding: 0;
+	}
+
+	.header-top {
+		position: static;
+		padding: 10px 0;
+	}
+	
+	.title-block .title {
+		font-size: 18px;
+	}
+
+	.banner-block {
+		padding: 0;
+		padding-top: 40px;
+	}
+
+	.banner-block .title-block {
+		text-align: center;
+	}
+
+	.banner-menu {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+
+	.banne-menu a {
+		font-size: 12px;
+	}*/
+
+	
+}
+
+@media (max-width: 320px) {
+	
+
+}
+
+/*==========   ==========*/
+
+@media (min-width: 1200px) {
+
+	.container {
+		max-width: 1326px;
+	}
+}
